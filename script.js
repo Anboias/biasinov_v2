@@ -15,10 +15,6 @@ function myFunction() {
 const doScroll = () => {  
   let about = document.getElementById("about");
   about.scrollIntoView({behavior: 'smooth'});
-  // window.scrollTo({
-  //   top: 400,
-  //   behavior: 'smooth'
-  // }); 
 } 
 
 seeMoreButton.addEventListener("click", doScroll);
