@@ -107,13 +107,45 @@ body {
 
 /* ABOUT */
 #about {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    /* display: flex; */
     height: 100vh;
     background-image: linear-gradient(to bottom, black, rgb(56, 56, 56)), url('/_ResumeWebsite_v2//img/gradient-black-background.jpg');
     background-size: cover;
     background-position: center center;
+}
+
+.a-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.a-content {
+    border: 1px solid red;
+    display: block;
+    /* min-width: 400px; */
+    max-width: 500px;
+    min-width: 300px;
+    /* max-height: 500px; */
+    /* align-self: baseline; */
+    /* height%; */
+}
+
+.a-top {
+
+}
+
+.a-image {
+    width: 300px;
+    border-radius: 50%;
+    border: 15px solid white;
+}
+
+.a-bottom {
+
 }
 
 /* CONTACT */
