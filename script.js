@@ -1,6 +1,7 @@
 window.onscroll = function() {myFunction()};
 
 let seeMoreButton = document.getElementById("h-button");   
+let seeMoreButtonAbout = document.getElementById("a-button");   
 
 let windowHeight = document.documentElement.clientWidth;
 
@@ -17,4 +18,10 @@ const doScroll = () => {
   about.scrollIntoView({behavior: 'smooth'});
 } 
 
+const doScrollContact = () => {  
+  let about = document.getElementById("contact");
+  about.scrollIntoView({behavior: 'smooth'});
+} 
+
 seeMoreButton.addEventListener("click", doScroll);
+seeMoreButtonAbout.addEventListener("click", doScrollContact);
