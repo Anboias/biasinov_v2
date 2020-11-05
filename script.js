@@ -17,13 +17,13 @@ function myFunction() {
   } else {
     document.getElementById("navbar").classList.remove("nav-compact") = "";
     stickyButtonHome.style.display = "none";
-
   }
 }
 
 /* Smooth scroll buttons/anchors */
 const doScroll = (event) => {  
   let goTo = event.target.id ? event.target.id : event.target.parentElement.id;
+
   // let goTo = event.target.id;
   console.log(goTo)
 
