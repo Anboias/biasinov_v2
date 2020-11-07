@@ -1,0 +1,205 @@
+<div class="c-container"><div class="c-header"><span class="c-form-title-1">Contact Us </span><span class="c-form-title-2">Feel free to drop us a line below ! </span></div><form class="c-form"_lpchecked="1"><div class="c-wrap-input validate-input"
+data-validate="Name is required"
+><span class="c-label-input">Full Name:</span><input class="c-input"
+type="text"
+name="name"
+placeholder="Enter full name"
+style="
+background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=');
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: 16px 18px;
+background-position: 98% 50%;
+cursor: auto;
+"
+/><span class="c-focus-input"></span></div><div class="c-wrap-input validate-input"
+data-validate="Valid email is required: ex@abc.xyz"
+><span class="c-label-input">Email:</span><input class="c-input"
+type="text"
+name="email"
+placeholder="Enter email address"
+/><span class="c-focus-input"></span></div><div class="c-wrap-input validate-input"
+data-validate="Phone is required"
+><span class="c-label-input">Phone:</span><input class="c-input"
+type="text"
+name="phone"
+placeholder="Enter phone number"
+/><span class="c-focus-input"></span></div><div class="c-wrap-input validate-input"
+data-validate="Message is required"
+><span class="c-label-input">Message:</span><textarea class="c-input-textarea"
+name="message"
+placeholder="Your Comment..."
+></textarea><span class="c-focus-input"></span></div><div class="c-form-button"><button class="c-button"><span>Submit </span></button></div></form></div>
+
+/* CONTACT */
+#contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: linear-gradient(to top, black, rgba(56, 56, 56, 0.1)), url('./img/bg-black-gradient-rotated.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.c-container {
+    width: 650px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+}
+
+.c-header {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 15px;
+    margin: 0;
+    box-sizing: content-box;
+    background-image: linear-gradient(to top, black, rgba(56, 56, 56, 0.1)), url('./img/write-me.jpeg');
+}
+
+.c-form {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 43px 88px 57px 190px;
+}
+
+.c-form-title-1 {
+    /* font-family: Poppins-Bold; */
+    font-size: 35px;
+    color: #fff;
+    line-height: 1.2;
+    text-align: center;
+    padding-bottom: 7px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    /* box-sizing: border-box; */
+}
+
+.c-form-title-2 {
+    /* font-family: Poppins-Regular; */
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    /* box-sizing: border-box; */
+}
+
+.c-wrap-input {
+    position: relative;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #b2b2b2;
+    margin-bottom: 26px;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    box-sizing: border-box;
+    display: block;
+}
+
+.c-label-input {
+    font-family: Poppins-Regular;
+    font-size: 15px;
+    color: #808080;
+    line-height: 1.2;
+    text-align: right;
+    position: absolute;
+    top: 14px;
+    left: -105px;
+    width: 80px;
+}
+
+.c-input {
+    height: 45px;
+    font-size: 15px;
+    color: #555555;
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    background: transparent;
+    padding: 0 5px;
+    margin-left: auto;
+    outline: none;
+    border: none;
+}
+
+.c-input-focus {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.c-input-textarea {
+    min-height: 115px;
+    padding-top: 14px;
+    padding-bottom: 13px;
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.c-form-button {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8px;
+}
+
+.c-button {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #57b846;
+    border-radius: 25px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    outline: none;
+    border: none;
+}
