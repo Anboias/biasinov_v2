@@ -1,0 +1,123 @@
+/* BUTTONS */
+#h-button-footer,
+#a-button-contact,
+#sticky-button-home {
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    border-radius: 15px;
+    padding: 0px 20px;
+    bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#h-button-footer:hover,
+#h-button-contact:hover,
+#sticky-button-home:hover {
+    border-radius: 5%;
+    background-color: rgba(163, 163, 163, 0.1);
+}
+
+
+#a-button-contact {
+    position: absolute;
+    background-color: transparent;
+    border: 0;
+    border-radius: 15px;
+    padding: 0px 20pxx;
+    bottom: 10px;
+    color: white;
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#sticky-button-home {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    background-color: transparent;
+    border: 0;
+    border-radius: 15px;
+    padding: 0px 20px;
+    bottom: 20px;
+    right: 5px;
+    z-index: 99;
+    color: rgb(109, 109, 109);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+#sticky-button-home:hover {
+
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.a-buttons-wrap {
+    width: 100%;
+    display: flex;
+    padding-top: 8px;
+}
+
+.a-button {
+    padding: 0 25px;
+    margin: 20px 20px 0 0;
+    min-width: 160px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 16px;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.a-button {
+    text-decoration: none;
+    color: #fff;
+}
+
+.a-button.btn1 {
+    background-color: #57b846;
+}
+
+.a-button.btn2 {
+    background-color: #b84657;
+}
+
+.a-button.btn1:hover {
+    background-color: #38A427;
+    border: 1px solid #218112;
+}
+
+.a-button.btn2:hover {
+    background-color: #982638;
+    border: 1px solid #6F0919;
+}
+
+.p-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    min-width: 2.5em;
+    height: 2.5em;
+    border-radius: 4px;
+    font-size: 0.8em;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 500;
+}

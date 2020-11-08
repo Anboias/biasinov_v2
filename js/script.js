@@ -13,6 +13,8 @@ let profileImg = document.getElementById('profile-img');
 
 /* Smooth scroll Navbar */
 function myFunction() {
+  // Show/hide Go Down button
+  // Make Navbar compact
   if (
     document.body.scrollTop > 100 ||
     document.documentElement.scrollTop > 100
@@ -23,6 +25,8 @@ function myFunction() {
     navbar.classList.remove('nav-compact');
     stickyButtonHome.style.display = 'none';
   }
+
+  // Show/hide Go Up button
   if (document.documentElement.scrollTop > 0) {
     hButtonFooter.style.display = 'none';
   } else {
@@ -34,15 +38,10 @@ function myFunction() {
 const doScroll = (event) => {
   let goTo = event.target.id ? event.target.id : event.target.parentElement.id;
 
-  // let goTo = event.target.id;
-  console.dir(goTo);
-
   goTo = goTo.substring(goTo.lastIndexOf('-') + 1);
 
   let goToElement = document.getElementById(goTo);
   goToElement.scrollIntoView({ behavior: 'smooth' });
-
-  // window.scroll(0, goToElement);
 };
 
 const profileImgHovered = (event) => {

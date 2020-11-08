@@ -1,3 +1,4 @@
+/* NOT USED
 <div class="c-container"><div class="c-header"><span class="c-form-title-1">Contact Us </span><span class="c-form-title-2">Feel free to drop us a line below ! </span></div><form class="c-form"_lpchecked="1"><div class="c-wrap-input validate-input"
 data-validate="Name is required"
 ><span class="c-label-input">Full Name:</span><input class="c-input"
@@ -30,7 +31,7 @@ data-validate="Message is required"
 name="message"
 placeholder="Your Comment..."
 ></textarea><span class="c-focus-input"></span></div><div class="c-form-button"><button class="c-button"><span>Submit </span></button></div></form></div>
-
+*/
 /* CONTACT */
 #contact {
     display: flex;
