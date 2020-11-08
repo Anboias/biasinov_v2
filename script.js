@@ -3,8 +3,8 @@ window.onscroll = function () {
 };
 
 let navbar = document.getElementById('navbar');
-let hButtonAbout = document.getElementById('h-button-about');
-let aButtonContact = document.getElementById('a-button-contact');
+let hButtonFooter = document.getElementById('h-button-footer');
+// let aButtonContact = document.getElementById('a-button-contact');
 let nAnchorHome = document.getElementById('n-a-home');
 let nAnchorAbout = document.getElementById('n-a-about');
 // let nAnchorContact = document.getElementById('n-a-contact');
@@ -23,6 +23,11 @@ function myFunction() {
     navbar.classList.remove('nav-compact');
     stickyButtonHome.style.display = 'none';
   }
+  if (document.documentElement.scrollTop > 0) {
+    hButtonFooter.style.display = 'none';
+  } else {
+    hButtonFooter.style.display = 'block';
+  }
 }
 
 /* Smooth scroll buttons/anchors */
@@ -36,11 +41,13 @@ const doScroll = (event) => {
 
   let goToElement = document.getElementById(goTo);
   goToElement.scrollIntoView({ behavior: 'smooth' });
+
+  // window.scroll(0, goToElement);
 };
 
 const profileImgHovered = (event) => {
   console.dir(event);
-  let animateClassName = 'animate__pulse';
+  let animateClassName = 'animate__headShake';
 
   if (event.type === 'mouseenter') {
     profileImg.classList.add(animateClassName);
@@ -51,8 +58,8 @@ const profileImgHovered = (event) => {
   // console.dir(profileImg);
 };
 
-hButtonAbout.addEventListener('click', doScroll);
-aButtonContact.addEventListener('click', doScroll);
+hButtonFooter.addEventListener('click', doScroll);
+// aButtonContact.addEventListener('click', doScroll);
 nAnchorHome.addEventListener('click', doScroll);
 nAnchorAbout.addEventListener('click', doScroll);
 // nAnchorContact.addEventListener('click', doScroll);
