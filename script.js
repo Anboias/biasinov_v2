@@ -7,7 +7,7 @@ let hButtonAbout = document.getElementById('h-button-about');
 let aButtonContact = document.getElementById('a-button-contact');
 let nAnchorHome = document.getElementById('n-a-home');
 let nAnchorAbout = document.getElementById('n-a-about');
-let nAnchorContact = document.getElementById('n-a-contact');
+// let nAnchorContact = document.getElementById('n-a-contact');
 let stickyButtonHome = document.getElementById('sticky-button-home');
 let profileImg = document.getElementById('profile-img');
 
@@ -30,7 +30,7 @@ const doScroll = (event) => {
   let goTo = event.target.id ? event.target.id : event.target.parentElement.id;
 
   // let goTo = event.target.id;
-  console.log(goTo);
+  console.dir(goTo);
 
   goTo = goTo.substring(goTo.lastIndexOf('-') + 1);
 
@@ -55,7 +55,7 @@ hButtonAbout.addEventListener('click', doScroll);
 aButtonContact.addEventListener('click', doScroll);
 nAnchorHome.addEventListener('click', doScroll);
 nAnchorAbout.addEventListener('click', doScroll);
-nAnchorContact.addEventListener('click', doScroll);
+// nAnchorContact.addEventListener('click', doScroll);
 stickyButtonHome.addEventListener('click', doScroll);
 profileImg.addEventListener('mouseenter', profileImgHovered);
 profileImg.addEventListener('mouseleave', profileImgHovered);
