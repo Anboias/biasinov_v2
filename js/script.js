@@ -3,7 +3,7 @@ window.onscroll = function () {
 };
 
 let navbar = document.getElementById('navbar');
-let hButtonFooter = document.getElementById('h-button-footer');
+let hButtonAbout = document.getElementById('h-button-about');
 // let aButtonContact = document.getElementById('a-button-contact');
 let nAnchorHome = document.getElementById('n-a-home');
 let nAnchorAbout = document.getElementById('n-a-about');
@@ -28,9 +28,9 @@ function myFunction() {
 
   // Show/hide Go Up button
   if (document.documentElement.scrollTop > 0) {
-    hButtonFooter.style.display = 'none';
+    hButtonAbout.style.display = 'none';
   } else {
-    hButtonFooter.style.display = 'block';
+    hButtonAbout.style.display = 'block';
   }
 }
 
@@ -57,7 +57,7 @@ const profileImgHovered = (event) => {
   // console.dir(profileImg);
 };
 
-hButtonFooter.addEventListener('click', doScroll);
+hButtonAbout.addEventListener('click', doScroll);
 // aButtonContact.addEventListener('click', doScroll);
 nAnchorHome.addEventListener('click', doScroll);
 nAnchorAbout.addEventListener('click', doScroll);

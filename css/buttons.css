@@ -1,5 +1,5 @@
 /* BUTTONS */
-#h-button-footer,
+#h-button-about,
 #a-button-contact,
 #sticky-button-home {
     position: absolute;
@@ -14,7 +14,7 @@
     font-size: 1em;
 }
 
-#h-button-footer:hover,
+#h-button-about:hover,
 #h-button-contact:hover,
 #sticky-button-home:hover {
     border-radius: 5%;
