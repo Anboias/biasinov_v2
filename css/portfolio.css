@@ -33,18 +33,36 @@
         0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
-.p-box>img {
+.p-box img {
+    width: 100%;
     /* border: 1px solid red; */
 }
 
+.p-box button a {
+    text-decoration: none;
+    color: rgb(49, 49, 49);
+
+}
+
+.p-box button a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.p-box button:hover {
+    /* transform: scale(1.1); */
+    background-color: rgb(204, 204, 204);
+    /* border: 1px solid rgba(49, 49, 49, 0.05); */
+}
+
 .p-box:hover {
-    transform: scale(1.05);
+    transform: scale(1.03);
     transition: 1s ease;
 }
 
 .p-text {
     background-color: white;
-    color: black;
+    color: rgb(49, 49, 49);
     font-size: 0.8em;
     padding: 10px;
     height: 100px;
