@@ -57,7 +57,7 @@
 
 .p-box:hover {
     transform: scale(1.03);
-    transition: 1s ease;
+    transition: 0.2s ease;
 }
 
 .p-text {
